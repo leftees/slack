@@ -10,7 +10,7 @@ engines:
 
 ratings:
     paths:
-    - "**/*(?\!test).go"
+    - "**/*(?\\!test).go"
 
 exclude_paths:
 - "**/*_test.go"

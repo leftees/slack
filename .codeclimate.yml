@@ -13,4 +13,4 @@ ratings:
     - "*([^t]|t[^e]|te[^s]|tes[^t]).go"
 
 exclude_paths:
-- "*_test.go"
+- "**/*_test.go"

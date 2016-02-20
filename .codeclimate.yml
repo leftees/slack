@@ -10,7 +10,7 @@ engines:
 
 ratings:
     paths:
-    - "*([^t]|t[^e]|te[^s]|tes[^t]).go"
+    - "**/*(?!test).go"
 
 exclude_paths:
 - "**/*_test.go"
